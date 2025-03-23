@@ -2,13 +2,10 @@
 
 return [
     'database' => [
-        'db' => [
-            'host' => 'localhost',
-            'dbname' => 'hogwarts',
-            'user' => 'root',
-            'password' => ''
-        ]
-    ]
+        'host' => 'localhost',
+        'dbname' => 'hogwarts',
+        'user' => 'root',
+        'password' => '7888'
+    ],
+    'path' => '/php/Hogwarts-for-programming/hogwarts/controllers'
 ];
-
-?>
