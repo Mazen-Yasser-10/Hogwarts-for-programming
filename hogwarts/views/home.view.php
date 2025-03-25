@@ -159,7 +159,7 @@
         
         <h1 class="text-4xl text-[#d3a840] py-6">Items</h1>
 
-        <div class="grid w-full sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-14 mt-8">
+        <div class="grid w-full sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-16  mt-8">
             <?php foreach ($items as $item): ?>
             <div class="bg-black shadow-lg rounded-2xl p-4 text-center">
             <img src="<?= htmlspecialchars($item->image) ?>" 
